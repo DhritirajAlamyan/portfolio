@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevDhritiraj Portfolio</title>
+    <!-- To link the stylesheet -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- To link google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- To linking fontawesome cdn for using icons -->
+    <script src="https://kit.fontawesome.com/823ab97718.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- For the header section having the logo and the toggle bar for navigation. -->
+
+    <header>
+      <div class="logo">
+        <img src="G:\Programming Files\Web Development\webDevelopmentProjects\My-Portfolio/images/logo.png" alt="logo">
+      </div>
+      <button class="nav-toggle">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <!-- "--" is used in class names for specifying its a subcomponent. -->
+        <ul class="nav--list">
+          <li><a class="nav--link" href="#home">Home</a></li>
+          <li><a class="nav--link" href="#services">My Services</a></li>
+          <li><a class="nav--link" href="#about">About Me</a></li>
+          <li><a class="nav--link" href="#work">My Work</a></li>
+          <li><a class="nav--link" href="#">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction Section -->
+    <section class="intro" id="home">
+      <h1 class="section_title section_title--intro">
+        Hi, I am <strong>Dhritiraj Alamyan</strong>
+      </h1>
+      <p class="section_subtitle section_subtitle--intro">
+        Web Developer
+      </p>
+      <img src="G:\Programming Files\Web Development\webDevelopmentProjects\My-Portfolio/images/profile_img-01.jpg" alt="Dhritiraj Alamyan Profile image" class="img--home">
+    </section>
+
+
+    <!-- My Services section -->
+    <section class="my-services" id="services">
+      <h2 class="section_title section_title--services">
+        What I do
+      </h2>
+      <div class="services">
+        <div class="service">
+          <h3>
+            Frontend Development
+          </h3>
+          <p>
+            I am well equiped to do frontend development with html, css & javascript. I am familier with concepts like css flexbox and css grid to
+            creat layout for a website. I have also worked with Bootstrap framework and developed many frontend projects with these mentioned tools from scratch.
+          </p>
+        </div>  <!-- /service> -->
+        <div class="service">
+          <h3>
+            Wordpress
+          </h3>
+          <p>
+            I have a good experience with Wordpress as I have build many functional websites using Wordpress. In many of my projects I used Elementor
+            as well as Elementor pro. I have also good experience in building e-commerce sites using shopify. In building these sites in all of these
+            different platforms my frontend development knowlededge comes in handy for me.
+          </p>
+        </div>  <!-- /service> -->
+      </div>  <!-- /Services> -->
+      <!-- <a href="#work" class="btn btn--service">See My Work</a> -->              <!--  To hide this button  -->
+      <a href="#footer" class="btn btn--service">Contact Me</a>
+    </section>
+
+
+    <!-- About Me section -->
+    <section class="about-me" id="about">
+      <div class="about-me_grid">
+        <h2 class="section_title section_title--about">
+          About Me
+        </h2>
+        <p class="section_subtitle section_subtitle--about">
+          Web Developer based on Guwahati.
+        </p>
+        <div class="about-me-body">
+          <p>
+            Hi, I am Dhritiraj. I have a Masters degree in Physics. I developed my interest in progrmming in my college days as I am trying to build
+            a website with one of my friends in our college library. From that day on I am learning computer programming and in this process I developed a serious
+            love for this thing. I also have experince in working with digital marketing agency.  I have completed many projects over the time and
+            still trying to learn. Besides that, I like to learn new things and go to new places. We can discuss about your project over a cup of coffee
+            as I am an avid fan of coffee. I hope you are also one from the same tribe!
+          </p>
+          <div class="my-languages">
+            <span class="language">HTML</span>
+            <div class="progress-bar">
+              <div class="progress-first">
+              </div>
+            </div>
+            <span class="language">CSS</span>
+            <div class="progress-bar">
+              <div class="progress-second">
+              </div>
+            </div>
+            <span class="language">JAVASCRIPT</span>
+            <div class="progress-bar">
+              <div class="progress-third">
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="G:\Programming Files\Web Development\webDevelopmentProjects\My-Portfolio/images/profile_img-02.JPG" alt="Dhritiraj Alamyan smiling image" class="img--about-me" >
+      </div>
+      <div class="button--about-me">
+        <!-- <a href="#" class="btn btn--about-me"type="button">Download My CV</a> -->             <!-- To hide this button -->
+      </div>
+    </section>
+
+
+    <!-- My Work Section -->
+    <section class="my-work" id="work">
+      <h2 class="section_title section_title--work">
+        My Work
+      </h2>
+      <p class="section_subtitle section_subtitle--work">A selection of my range of works</p>
+      <div class="portfolio">
+        <a href="" class="portfolio-item">
+          <!-- src will be the image of my completed project and alt will be about the project. -->
+          <img src="G:\Programming Files\Web Development\webDevelopmentProjects\My-Portfolio/images/portfolio-img-01.png" alt="" class="portfolio-img">
+        </a>
+        <a href="" class="portfolio-item">
+          <!-- src will be the image of my completed project and alt will be about the project. -->
+          <img src="G:\Programming Files\Web Development\webDevelopmentProjects\My-Portfolio/images/portfolio-img-02.png" alt="" class="portfolio-img">
+        </a>
+        <a href="" class="portfolio-item">
+          <!-- src will be the image of my completed project and alt will be about the project. -->
+          <img src="G:\Programming Files\Web Development\webDevelopmentProjects\My-Portfolio/images/portfolio-img-03.png" alt="" class="portfolio-img">
+        </a>
+        <a href="" class="portfolio-item">
+          <!-- src will be the image of my completed project and alt will be about the project. -->
+          <img src="G:\Programming Files\Web Development\webDevelopmentProjects\My-Portfolio/images/portfolio-img-04.png" alt="" class="portfolio-img">
+        </a>
+        <a href="" class="portfolio-item">
+          <!-- src will be the image of my completed project and alt will be about the project. -->
+          <img src="G:\Programming Files\Web Development\webDevelopmentProjects\My-Portfolio/images/portfolio-img-05.png" alt="" class="portfolio-img">
+        </a>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+      <a href="mailto:dalamyan@gmail.com" class="footer-link">dalamyan@gmail.com</a>
+      <div class="social-list">
+        <a href="https://github.com/DhritirajAlamyan" class="social-list-item">
+          <i class="fa fa-brands fa-github"></i>
+        </a>
+        <a href="https://twitter.com/" class="social-list-item">
+          <i class="fa fa-brands fa-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/" class="social-list-item">
+          <i class="fa fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+    </footer>
+
+
+    <script src="index.js" charset="utf-8"></script>
+
+  </body>
+</html>
